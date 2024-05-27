@@ -14,6 +14,13 @@
 		84BBA66B2C053E0200C23859 /* GeoPromoAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA66A2C053E0200C23859 /* GeoPromoAlertTests.swift */; };
 		84BBA6752C053E0200C23859 /* GeoPromoAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6742C053E0200C23859 /* GeoPromoAlertUITests.swift */; };
 		84BBA6772C053E0200C23859 /* GeoPromoAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6762C053E0200C23859 /* GeoPromoAlertUITestsLaunchTests.swift */; };
+		84BBA6842C053E5800C23859 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6832C053E5800C23859 /* MapView.swift */; };
+		84BBA6862C053E7D00C23859 /* LocationReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6852C053E7D00C23859 /* LocationReminderViewModel.swift */; };
+		84BBA6882C053E9300C23859 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6872C053E9300C23859 /* Reminder.swift */; };
+		84BBA68A2C053EA100C23859 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA6892C053EA100C23859 /* LocationService.swift */; };
+		84BBA68C2C053EB200C23859 /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA68B2C053EB200C23859 /* ReminderRowView.swift */; };
+		84BBA68E2C053EBE00C23859 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBA68D2C053EBE00C23859 /* ReminderListView.swift */; };
+		84BBA6902C05401100C23859 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84BBA68F2C05401100C23859 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		84BBA6702C053E0200C23859 /* GeoPromoAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoPromoAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBA6742C053E0200C23859 /* GeoPromoAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPromoAlertUITests.swift; sourceTree = "<group>"; };
 		84BBA6762C053E0200C23859 /* GeoPromoAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPromoAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BBA6832C053E5800C23859 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		84BBA6852C053E7D00C23859 /* LocationReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationReminderViewModel.swift; sourceTree = "<group>"; };
+		84BBA6872C053E9300C23859 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		84BBA6892C053EA100C23859 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		84BBA68B2C053EB200C23859 /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
+		84BBA68D2C053EBE00C23859 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		84BBA68F2C05401100C23859 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		84BBA64D2C053DFF00C23859 = {
 			isa = PBXGroup;
 			children = (
+				84BBA68F2C05401100C23859 /* info.plist */,
 				84BBA6582C053DFF00C23859 /* GeoPromoAlert */,
 				84BBA6692C053E0200C23859 /* GeoPromoAlertTests */,
 				84BBA6732C053E0200C23859 /* GeoPromoAlertUITests */,
@@ -98,6 +113,12 @@
 				84BBA65B2C053DFF00C23859 /* ContentView.swift */,
 				84BBA65D2C053E0100C23859 /* Assets.xcassets */,
 				84BBA65F2C053E0100C23859 /* Preview Content */,
+				84BBA6832C053E5800C23859 /* MapView.swift */,
+				84BBA6852C053E7D00C23859 /* LocationReminderViewModel.swift */,
+				84BBA6872C053E9300C23859 /* Reminder.swift */,
+				84BBA6892C053EA100C23859 /* LocationService.swift */,
+				84BBA68B2C053EB200C23859 /* ReminderRowView.swift */,
+				84BBA68D2C053EBE00C23859 /* ReminderListView.swift */,
 			);
 			path = GeoPromoAlert;
 			sourceTree = "<group>";
@@ -233,6 +254,7 @@
 			files = (
 				84BBA6612C053E0100C23859 /* Preview Assets.xcassets in Resources */,
 				84BBA65E2C053E0100C23859 /* Assets.xcassets in Resources */,
+				84BBA6902C05401100C23859 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BBA65C2C053DFF00C23859 /* ContentView.swift in Sources */,
+				84BBA68C2C053EB200C23859 /* ReminderRowView.swift in Sources */,
+				84BBA6862C053E7D00C23859 /* LocationReminderViewModel.swift in Sources */,
+				84BBA6842C053E5800C23859 /* MapView.swift in Sources */,
 				84BBA65A2C053DFF00C23859 /* GeoPromoAlertApp.swift in Sources */,
+				84BBA68A2C053EA100C23859 /* LocationService.swift in Sources */,
+				84BBA68E2C053EBE00C23859 /* ReminderListView.swift in Sources */,
+				84BBA6882C053E9300C23859 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
